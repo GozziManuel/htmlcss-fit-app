@@ -1,70 +1,70 @@
-section > div:first-child::before {
-    content: "🔥";
-    font-size: 30px;
-}
+    section > div:first-child::before {
+        content: "🔥";
+        font-size: 30px;
+    }
 
-section.stats-container > div:last-child{
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
+    section.stats-container > div:last-child{
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
 
-section.stats-container > div:last-child span {
-    color:white
-}
-section.stats-container > div:last-child div {
-    color:white
-}
+    section.stats-container > div:last-child span {
+        color:white
+    }
+    section.stats-container > div:last-child div {
+        color:white
+    }
 
-div.stats-grid:hover{
-  box-shadow: 5px 5px 5px  rgba(176,164,176,1);
-  transition: all .3s ease-in-out
-    
-}
-section.workout-section > article.workout-plan:nth-child(3){
-    background-color: rgba(255, 248, 186);
-    border-left: solid orange;
-    border-width: 5px;    
-}
-
-div.exercise-item:first-child{
-    background-color: rgba(240, 255, 244);
-    border-left: solid green 5px;
-}
-
-div.exercise-item:last-child{
-    background-color: rgba(240, 255, 244);
-    border-left: solid green 5px;
-}
-div[style] div.exercise-item:nth-child(even)::before{
-    content: "⚡";
-    font-size: 20px;
-
-}
- input:focus{
-    border: solid blue 1px;
-    outline: none;
-    box-shadow: 5px 5px 5px  rgb(146, 173, 255);
-    transition: all .3s ease-in-out;
-}
-select:focus{
-    border: solid blue 1px;
-    outline: none;
-    box-shadow: 5px 5px 5px  rgb(146, 173, 255);
-    transition: all .3s ease-in-out;
-}
-button.save-btn:hover{
-    background-color: rgb(40, 71, 212);
-    box-shadow: 5px 5px 5px  rgba(102, 126, 234, 0.742);
+    div.stats-grid:hover{
+    box-shadow: 5px 5px 5px  rgba(176,164,176,1);
     transition: all .3s ease-in-out
-}
+        
+    }
+    section.workout-section > article.workout-plan:nth-child(3){
+        background-color: rgba(255, 248, 186);
+        border-left: solid orange;
+        border-width: 5px;    
+    }
 
-div.progress-bar{
-    position: relative;
-}
-div.progress-fill::after{
-      right: 6px;
-    top: -3px;
-    position: absolute;
-    content: "65%";
-    color: white;
-    font-size: 11px;
-}
+    div.exercise-item:first-child{
+        background-color: rgba(240, 255, 244);
+        border-left: solid green 5px;
+    }
+
+    div.exercise-item:last-child{
+        background-color: rgba(240, 255, 244);
+        border-left: solid green 5px;
+    }
+    div[style] div.exercise-item:nth-child(even)::before{
+        content: "⚡";
+        font-size: 20px;
+
+    }
+    input:focus{
+        border: solid blue 1px;
+        outline: none;
+        box-shadow: 5px 5px 5px  rgb(146, 173, 255);
+        transition: all .3s ease-in-out;
+    }
+    select:focus{
+        border: solid blue 1px;
+        outline: none;
+        box-shadow: 5px 5px 5px  rgb(146, 173, 255);
+        transition: all .3s ease-in-out;
+    }
+    button.save-btn:hover{
+        background-color: rgb(40, 71, 212);
+        box-shadow: 5px 5px 5px  rgba(102, 126, 234, 0.742);
+        transition: all .3s ease-in-out
+    }
+
+    div.progress-bar{
+        position: relative;
+    }
+    div.progress-fill::after{
+        right: 6px;
+        top: -3px;
+        position: absolute;
+        content: "65%";
+        color: white;
+        font-size: 11px;
+    }
