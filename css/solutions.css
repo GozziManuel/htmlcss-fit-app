@@ -24,3 +24,13 @@ section.workout-section > article.workout-plan:nth-child(3){
     border-left: solid orange;
     border-width: 5px;    
 }
+
+div.exercise-item:first-child{
+    background-color: rgba(240, 255, 244);
+    border-left: solid green 5px;
+}
+
+div.exercise-item:last-child{
+    background-color: rgba(240, 255, 244);
+    border-left: solid green 5px;
+}
