@@ -2,3 +2,14 @@ section > div:first-child::before {
     content: "🔥";
     font-size: 30px;
 }
+
+section.stats-container > div:last-child{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+section.stats-container > div:last-child span {
+    color:white
+}
+section.stats-container > div:last-child div {
+    color:white
+}
