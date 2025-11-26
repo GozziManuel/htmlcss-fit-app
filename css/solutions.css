@@ -56,3 +56,15 @@ button.save-btn:hover{
     box-shadow: 5px 5px 5px  rgba(102, 126, 234, 0.742);
     transition: all .3s ease-in-out
 }
+
+div.progress-bar{
+    position: relative;
+}
+div.progress-fill::after{
+      right: 6px;
+    top: -3px;
+    position: absolute;
+    content: "65%";
+    color: white;
+    font-size: 11px;
+}
