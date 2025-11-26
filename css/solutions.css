@@ -77,3 +77,26 @@
         color: rgba(87, 126, 234);
         background-color: rgba(52, 73, 94);
     }
+    div.quote-box{
+        position: relative;
+    }
+
+    div.quote-box > p::after{
+        right: 12px;
+        content: " '' ";
+        position: absolute;
+        font-size: 45px;
+        letter-spacing: -2px;
+        top: 20px;
+        opacity: 35%
+    }
+    
+    div.quote-box > p::before{
+        top: 5px;
+        left: 5px;
+        content: " '' ";
+        position: absolute;
+        font-size: 45px;
+        letter-spacing: -2px;
+        opacity: 35%;
+    }
