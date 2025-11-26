@@ -34,3 +34,8 @@ div.exercise-item:last-child{
     background-color: rgba(240, 255, 244);
     border-left: solid green 5px;
 }
+div[style] div.exercise-item:nth-child(even)::before{
+    content: "⚡";
+    font-size: 20px;
+
+}
