@@ -1,0 +1,4 @@
+section > div:first-child::before {
+    content: "🔥";
+    font-size: 30px;
+}
