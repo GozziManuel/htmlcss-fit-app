@@ -13,3 +13,9 @@ section.stats-container > div:last-child span {
 section.stats-container > div:last-child div {
     color:white
 }
+
+div.stats-grid:hover{
+  box-shadow: 5px 5px 5px  rgba(176,164,176,1);
+  transition: all .3s ease-in-out
+    
+}
