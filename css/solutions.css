@@ -68,3 +68,12 @@
         color: white;
         font-size: 11px;
     }
+
+    a.nav-item:hover{
+        color: rgba(87, 126, 234);
+        background-color: rgba(52, 73, 94);
+    }
+    a.nav-item:first-child{
+        color: rgba(87, 126, 234);
+        background-color: rgba(52, 73, 94);
+    }
