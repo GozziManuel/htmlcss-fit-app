@@ -39,3 +39,15 @@ div[style] div.exercise-item:nth-child(even)::before{
     font-size: 20px;
 
 }
+ input:focus{
+    border: solid blue 1px;
+    outline: none;
+    box-shadow: 5px 5px 5px  rgb(146, 173, 255);
+    transition: all .3s ease-in-out;
+}
+select:focus{
+    border: solid blue 1px;
+    outline: none;
+    box-shadow: 5px 5px 5px  rgb(146, 173, 255);
+    transition: all .3s ease-in-out;
+}
